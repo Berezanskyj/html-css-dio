@@ -1,5 +1,5 @@
 
-# HTML & CSS - DIO
+# HTML, CSS & JavaScript - DIO
 
 Repositório para que eu possa deixar os estudos de HTML e CSS salvos, caso haja alguma dúvida.
 #
@@ -14,7 +14,7 @@ Repositório para que eu possa deixar os estudos de HTML e CSS salvos, caso haja
 [Alura](https://www.alura.com.br/artigos/escrever-bom-readme)
 
 # 
-## HTML
+## HTML5
 
  - Em caso de uso de uma tag âncora - <a>, podemos utilizar o href, que irá nos mandar para a página da âncora utilizando a mesma guia em que estamos. Caso seja necessário abrir uma nova guia, podemos utilizar o comando <target>, para que eles nos mande para a página âncorada porém em uma nova guia.ㅤ
 
@@ -25,7 +25,7 @@ Repositório para que eu possa deixar os estudos de HTML e CSS salvos, caso haja
  # 
 
 
-- Em caso de e-mail ou telegone podemos usar um prefixo na tag <a>.
+- Em caso de e-mail ou telefone podemos usar um prefixo na tag <a>.
 
 ```
 <a href="mailto:berezanskyj16@gmail.com">
@@ -49,3 +49,98 @@ Exemplo:
 3. Facebook
 ```
 # 
+
+## Java Script
+Dentro dos arrays no JS temos alguns metodos para manipula-los:
+
+
+- forEach() - Itera um array;
+
+- push() - adiciona item no final do array;
+
+- pop() - remove item no final do array;
+
+- shift() - remove item no inicio do array;
+
+- unshift() - adiciona item no inciio do array;
+
+- indexOF() - retorna o indice de um valor;
+
+- splice() - remove ou substitui um item pelo indice;
+
+- slice() - retorna uma parte de um array existente;
+
+## Exemplos
+```
+forEach():
+const numbers = [1, 2, 3]; 
+numbers.forEach(num => console.log(num))
+
+Retorno:
+1
+2
+3
+```
+```
+push():
+const fruits = ['apple', 'banana']; 
+fruits.push('orange');
+console.log(fruits);
+
+Retorno:
+[ 'apple', 'banana', 'orange' ]
+```
+```
+pop():
+const colors = ['red', 'blue', 'green'];
+const removedColor = colors.pop();
+console.log(removedColor);
+
+Retorno:
+[ 'red', 'blue' ]
+```
+```
+shift():
+const animals = ['dog', 'cat', 'rabbit'];
+const shiftedAnimal = animals.shift();
+console.log(animals);
+
+Retorno:
+[ 'cat', 'rabbit' ]
+```
+```
+unshift():
+const cities = ['Paris', 'London']; 
+const cidade = cities.unshift('New York');
+console.log(cities);
+
+Retorno:
+[ 'New York', 'Paris', 'London' ]
+```
+```
+indexOF():
+const names = ['Alice', 'Bob', 'Charlie'];
+const index = names.indexOf('Bob');
+console.log(index);
+
+Retorno:
+1
+```
+```
+splice():
+const numbers = [10, 20, 30, 40, 50];
+const removed = numbers.splice(1, 2);
+console.log(numbers)
+
+Retorno:
+[ 10, 40, 50 ]
+```
+```
+slice():
+const newColors = ['red', 'green', 'blue'];
+const slicedColors = colors.slice(1, 3);
+console.log(newColors);
+
+Retorno:
+[ 'red', 'green', 'blue' ]
+```
