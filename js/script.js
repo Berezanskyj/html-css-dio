@@ -23,5 +23,5 @@ const slicedColors = colors.slice(1, 3);
 console.log(newColors);
 
 
-const numbers = [1, 2, 3]; 
+const newNumbers = [1, 2, 3]; 
 numbers.forEach(num => console.log(num))
