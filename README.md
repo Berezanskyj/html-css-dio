@@ -144,3 +144,55 @@ console.log(newColors);
 Retorno:
 [ 'red', 'green', 'blue' ]
 ```
+
+## Funções
+Dentro do JavaScript temos funções declarativas e não declarativas.
+
+
+
+### Funções declarativas
+- Funções declarativas necessáriamente PRECISAM ter um nome.
+```
+function mensagem(){
+    console.log('Essa mensagem veio de uma função')
+};
+
+mensagem();
+```
+
+### Expressões de funções
+- Expressões de funções não necessáriamente precisam ser um nome, pois com a sua chamada o próprio JavaScript entende que estamos chamando uma expressão de função.
+
+```
+Com nomeação:
+
+var mensagem = function mensagem(){
+    console.log('Essa mensagem veio de uma função')
+};
+
+
+mensagem();
+```
+
+```
+Sem nomeação:
+
+var mensagem = function(){
+    console.log('Essa mensagem veio de uma função')
+};
+
+
+mensagem();
+```
+
+### Arrow function
+- São funções de expressão de sintaxe curta. Arrow functions sempre serão anônimas, e portanto não podem ser nomeadas. deve ser declarada com parênteses "()", seguido de "=>" e depois chaves "{}"
+
+```
+var mensagem = () => {
+    console.log('Essa mensagem veio de uma função')
+};
+
+
+mensagem();
+```
